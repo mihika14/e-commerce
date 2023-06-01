@@ -98,31 +98,15 @@ const Cart = () => {
                     <div className="products">{renderCartItems()}</div>
                 </div>
 
-                <div className="card coupons">
-                    <label className="title">Apply coupons</label>
-                    <form className="form">
-                        <input
-                            type="text"
-                            placeholder="Apply your coupons here"
-                            className="input_field"
-                        />
-                        <button>Apply</button>
-                    </form>
-                </div>
-
                 <div className="card checkout">
                     <label className="title">Checkout</label>
                     <div className="details">
                         <span>Your cart subtotal:</span>
                         <span>${calculateSubtotal()}</span>
-                        <span>Discount through applied coupons:</span>
-                        <span>$3.99</span>
-                        <span>Shipping fees:</span>
-                        <span>$4.99</span>
                     </div>
                     <div className="checkout--footer">
                         <label className="price">
-                            <sup>$</sup>57.99
+                            <sup>$</sup>{calculateSubtotal()}
                         </label>
 
                         <a href="/payment" className="checkout-btn" target="_blank">
