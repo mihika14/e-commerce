@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Caraousel from "../caraousel/caraousel";
 import Options from "../Options/Options";
 import './Homepage.css'
-import Electronics from "../bestitems/Electronics";
+// import Electronics from "../bestitems/Electronics";
 import Beauty from "../bestitems/Beauty";
 
 
@@ -17,9 +17,9 @@ function HomePage() {
             <div className="carousel">
                 <Caraousel />
             </div>
-            <div>
+            {/* <div>
                 <Electronics />
-            </div>
+            </div> */}
             <Beauty />
             
             

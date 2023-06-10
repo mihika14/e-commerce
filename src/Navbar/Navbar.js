@@ -28,7 +28,7 @@ export default class Navbar extends Component {
                     </Menu.Item>
 
 
-                    <Menu.Item
+                    {/* <Menu.Item
                         name='shopping cart'
                         active={activeItem === 'shopping cart'}
                         onClick={this.handleItemClick}
@@ -37,7 +37,7 @@ export default class Navbar extends Component {
                     >
                         <Icon name='shopping cart' size='big' />
                         Your Cart
-                    </Menu.Item>
+                    </Menu.Item> */}
 
                     <Dropdown item text='My account'>
                         <Dropdown.Menu>

@@ -1,21 +1,30 @@
-import axios from "axios";
+// import axios from "axios";
 
-const handlePayment = async () => {
-    try {
-      const response = await axios.post(
-        'https://api.na.bambora.com/v1/payments',
-        {
-          headers: {
-            Authorization: '7EB97D809A9b43779C12d923265F417B'
-          }
-        }
-      );
-      
-      console.log(response.data); 
-    } catch (error) {
-      console.error(error);
-      
-    }
-  };
-  
+// const handlePayment = async () => {
+//   const response = await axios.post('https://dev.na.bambora.com/docs/references/payment_APIs/v1-0-5/', {
+//     headers: {
+//       Authorization: "Passcode MzAwMjEzNDQxOjdFQjk3RDgwOUE5YjQzNzc5QzEyZDkyMzI2NUY0MTdC"
+//     },
+//   });
+   
+//   const transactionId = response.data.TransactionId;
+//   const authorizationCode = response.data.AuthorizationCode;
+//   const messageId = response.data.MessageId;
+//   const messageText = response.data.MessageText;
+//   const transactionDate = response.data.TransactionDate;
+
+//   // Do something with the parameters
+//   console.log('Transaction Id:', transactionId);
+//   console.log('Authorization Code:', authorizationCode);
+//   console.log('Message Id:', messageId);
+//   console.log('Message Text:', messageText);
+//   console.log('Transaction Date:', transactionDate);
+
+//   return response;
+// }
+
+
+
+
+
 export default handlePayment;

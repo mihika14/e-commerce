@@ -17,3 +17,7 @@
     padding: 5px;
     
 }
+
+.ui.homepage{
+    background: linear-gradient(to bottom,#a0d2eb, #d0bdf4, #edf756, #ffa8b6, #a28089);
+}

@@ -9,26 +9,22 @@ const electronicsData = [
   {
     image: images,
     name: "Alpha 9",
-    rating: "5 stars",
-    value: "5M+"
+    value: "$100+"
   },
   {
     image: phone,
     name: "Iphone 10",
-    rating: "5 stars",
-    value: "9M+"
+    value: "$300"
   },
   {
     image: printer,
     name: "laser",
-    rating: "5 stars",
-    value: "4M+"
+    value: "$600"
   },
   {
     image: vaccum,
     name: "Vaccum cleaner",
-    rating: "5 stars",
-    value: "2M+"
+    value: "$300"
   },
  
 ];
