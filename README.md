@@ -11,6 +11,6 @@ react-responsive-caraousel<br/>
 semnatic-ui-react
 
 # Installation
-git clone https://github.com/mihika14/e-commerce.git
-npm install (semantic-ui-react , axios , react-responsive-caraousel , react-router-dom)
+git clone https://github.com/mihika14/e-commerce.git<br/>
+npm install (semantic-ui-react , axios , react-responsive-caraousel , react-router-dom)<br/>
 npm start
